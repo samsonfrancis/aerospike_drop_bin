@@ -1,0 +1,11 @@
+register module './delete_bin.lua'
+execute delete_bin.delete('lob_amt') on user_audience.user_data
+execute delete_bin.delete('d_amt') on user_audience.user_data
+execute delete_bin.delete('sd_amt') on user_audience.user_data
+execute delete_bin.delete('cd_amt') on user_audience.user_data
+execute delete_bin.delete('sc_amt') on user_audience.user_data
+execute delete_bin.delete('mc_amt') on user_audience.user_data
+execute delete_bin.delete('lt_date') on user_audience.user_data
+execute delete_bin.delete('brand_amt') on user_audience.user_data
+execute delete_bin.delete('state_name') on user_audience.user_data
+execute delete_bin.delete('city_name') on user_audience.user_data

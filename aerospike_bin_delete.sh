@@ -1,0 +1,1 @@
+aql -f delete_bin.aql -hlocalhost
